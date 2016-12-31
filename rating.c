@@ -25,5 +25,8 @@ float passer_rating(int comps, int atts, int yds, int tds, int ints)
     double retval = 100.0*(completionComponent + yardageComponent + touchdownComponent +
         pickComponent)/6.0;
     return retval;
+    /*
+     *This is for the git.
+     */
     
 }
